@@ -23,3 +23,32 @@ Example Output:
     2. mkdir Terminal_testing
     3. //...
 
+Results:
+    1. cd ~/Documents/CodingNomads
+    2. mkdir Terminal_testing
+    3.
+        a. touch note1.txt note2.txt note3.txt
+        b. pwd --> /Users/malonewall/Documents/CodingNomads/Terminal_testing
+        c. ls -al
+           total 0
+           drwxr-xr-x@ 5 malonewall  staff  160 Jun  3 17:16 .
+           drwxr-xr-x@ 6 malonewall  staff  192 Jun  3 17:16 ..
+           -rw-r--r--@ 1 malonewall  staff    0 Jun  3 17:15 note1.txt
+           -rw-r--r--@ 1 malonewall  staff    0 Jun  3 17:15 note2.txt
+           -rw-r--r--@ 1 malonewall  staff    0 Jun  3 17:15 note3.txt
+    4. no #4
+    5. mkdir newFolder
+    6. cp note1.txt newFolder
+    7. mv note2.txt newFolder
+    8.
+        a. rm note3.txt
+        b. rm -r newFolder
+    9.
+        a. vim note1.txt
+        b. cat note1.txt --> This is my note
+                             very complex
+                             beautiful
+        c. grep complex note1.txt --> very complex
+
+
+

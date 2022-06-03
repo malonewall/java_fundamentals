@@ -16,6 +16,7 @@ public class Exercise_03 {
 
         System.out.println("Hello World!");
 	    System.out.println("Check out my first program!");
+
     }
 
 }

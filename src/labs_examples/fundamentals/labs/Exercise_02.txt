@@ -26,9 +26,33 @@ Adding a remote
         (directions are provided on Github with new repo is created)
     3. Push local git repository to your Github using the new remote.
 
+
+// didn't do this one
 Cloning repository from Github
     1. Find a repository on Github
     2. Clone repository to local machine
     3. Create new repository on Github
     4. Add new remote on local machine
     5. Push to new Github repository
+
+
+
+Results
+    1. mkdir git_practice
+    2.
+        a. git init git_practice --> Initialized empty Git repository in /Users/malonewall/Documents/CodingNomads/git_practice/.git/
+        b. vim newFile.java
+        c. git add newFile.java
+        d. git commit --> [master (root-commit) 08ffd6f] Creating newFile.java
+                           1 file changed, 9 insertions(+)
+                           create mode 100644 newFile.java
+        e. git push -u -f practice master -- >   Enumerating objects: 3, done.
+                                                 Counting objects: 100% (3/3), done.
+                                                 Delta compression using up to 4 threads
+                                                 Compressing objects: 100% (2/2), done.
+                                                 Writing objects: 100% (3/3), 336 bytes | 336.00 KiB/s, done.
+                                                 Total 3 (delta 0), reused 0 (delta 0)
+                                                 To https://github.com/malonewall/git_practice.git
+                                                  * [new branch]      master -> master
+                                                 Branch 'master' set up to track remote branch 'master' from 'practice'.
+
