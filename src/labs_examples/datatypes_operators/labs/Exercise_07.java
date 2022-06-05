@@ -24,6 +24,9 @@ public class Exercise_07 {
         int days = scanner.nextInt();
 
         // write completed code here
+        long ldays = (long) days;
+        long seconds = (ldays * 86400); // number of days multiplied by 24 hours, 60 minutes per hour, 60 seconds per minute
+        System.out.println(days + " days is " + seconds + " seconds");
 
     }
 }

@@ -24,6 +24,13 @@ public class Exercise_02 {
     public static void main(String[] args) {
 
         // write code here
+        int willBecomeDouble = 10;
+        double usedToBeInt = willBecomeDouble;
+        System.out.println(usedToBeInt);
+
+        double willBecomeInt = 10.5;
+        int usedToBeDouble = (int) willBecomeInt;//.5 is lost in this conversion
+        System.out.println(usedToBeDouble);
 
     }
 }
