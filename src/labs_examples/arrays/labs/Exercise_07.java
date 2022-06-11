@@ -1,4 +1,5 @@
 package labs_examples.arrays.labs;
+import java.util.ArrayList;
 
 /**
  *  ArrayLists
@@ -10,4 +11,22 @@ package labs_examples.arrays.labs;
  *
  */
 public class Exercise_07 {
+    public static void main(String[] args) {
+        ArrayList<String> names = new ArrayList<>();
+
+        names.add("Louis");
+        names.add("Leonard");
+        names.add("Yolanda");
+
+        System.out.println("My best friend is named " +names.get(0));
+
+        names.add(1, "Priscilla");
+        System.out.println("My second best friend is named "+names.get(1));
+
+        System.out.println("My list of friends is empty -- "+names.isEmpty());
+        //names.removeAll(names);
+        names.clear();
+        System.out.println("What about now? " + names.isEmpty());
+
+    }
 }

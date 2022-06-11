@@ -10,4 +10,18 @@ package labs_examples.arrays.labs;
 
 public class Exercise_04 {
 
+    public static void main(String[] args) {
+        String[][] names = {
+                {"Fiona", "Felicia"},
+                {"Gregor", "Geraldine", "Giovanni"},
+                {"Hiacinth", "Hallie", "Hickory", "Hason"}
+        };
+
+        for(String[] array : names){
+            for(String name : array){
+                System.out.print(name + "\t\t");
+            }
+            System.out.println();
+        }
+    }
 }
