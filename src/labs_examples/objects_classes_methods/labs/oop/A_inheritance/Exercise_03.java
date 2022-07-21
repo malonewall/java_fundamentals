@@ -31,6 +31,7 @@ class C_1 extends B_1 {
 public class Exercise_03 {
     public static void main(String[] args)
     {
+
         C_1 c = new C_1();
     }
 }
